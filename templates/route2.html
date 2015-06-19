@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>route2</title>
+
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="container  ng-controller="route2Controller">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10  col-sm-offset-1 col-md-8 col-md-offset-0 col-lg-6 col-xl-6" >
+          <div id="mailFrame">
+
+
+           <input class="pull-left" type="checkbox"   ng-model="master"  ng-click="checkAll(master)" />&nbsp<strong> Select All</strong>
+
+
+
+            <span class="pull-right">Selected <strong>{{checkedContacts}} </strong> of <strong >{{totalContacts}} </strong> contacts.</span>
+
+             <input id="search" ng-model="query" type="text" class="form-control" placeholder="Search" autofocus>
+         </div>
+
+
+
+      
+        <form id="gmailForm" name="gmailForm" ng-submit="submitGmailForm()" > 
+
+          <div ng-repeat="contact in contactsArray | filter: query">
+
+            <input type="checkbox" ng-checked="master" ng-model="contact.status"  ng-change="change(contact)"/>
+          
+            <strong><span>{{contact.name}} </span></strong>  
+            <span class="pull-right">{{contact.email}}</span>
+            
+          </div>  
+
+        
+         <button id="sendButton" class="btn btn-danger pull-right" ng-click="sendInvite()">Send Invite</button>
+
+
+           <!-- <input type="checkbox" ng-model="checked" ng-checked="checked">&nbsp{{checked}}   -->
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  

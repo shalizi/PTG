@@ -1,0 +1,115 @@
+/* below styles for index.html */
+
+#mailpanel{
+  
+  height: 82px;
+  border-top: 1px solid #d7d7d7;
+  padding: 5px;
+  background: #f0f0f0;
+
+}
+.mailbox{
+  width: 82px;
+  height: 65px;
+  margin:3px;
+  border: 1px solid #d7d7d7;
+  background: #ffffff;
+}
+.mailboxpad{
+  margin-left: 5px;
+}
+.mailbox:hover{
+  border: 1px solid gray;
+  box-shadow: 2px 5px 2px #888888;
+  cursor: pointer;
+}
+#gmailevent{
+  margin-left: 3px;
+}
+
+.mail-icon{
+  width: 88px;
+  height:40px;
+
+}
+.mail-label{
+  width: 78px;
+  height: 20px;
+  font-size: 80%;
+  
+}
+.glyph{
+  font-size: 30px;
+  vertical-align;
+  padding: 7px;
+  padding-left: 24px;
+}
+.goBackIcon{
+  margin-top: 76px;
+  
+}
+#managelink{
+  margin-top: 75px;
+  margin-right: 8px;
+}
+#gmailjpg{
+  margin-top: 3px;
+  margin-left: 16px;
+}
+#yahoojpg{
+  margin-top: 1px;
+  margin-left: 14px;
+}
+#hotmailjpg{
+  margin-top: 5px;
+  margin-left: 21px;
+}
+
+/* below styles for route2.html  */
+#mailFrame{
+  border-top: 1px solid #d7d7d7;
+  padding: 8px;
+  background: #f0f0f0;
+  
+
+}
+#privateTunnelLogo{
+  margin-top: 57px;
+}
+.moveBack{
+  font-size: 15px;
+  margin-top: 35px;
+  margin-right: 5px;
+  
+}
+#progressContainer{
+
+  height: 72px;
+  
+}
+#insideForm{
+  border-top: 1px solid black;
+  height: 420px;
+  background-color: white;
+
+}
+#sendButton{
+  margin-top: 20px;
+}
+#checkboxController{
+  margin-left: 15px;
+}
+#search{
+  margin-top: 15px;
+  width: 270px;
+}
+
+#gmailForm{
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px;
+}
+
+
+
